@@ -6,6 +6,7 @@ from flask import session as login_session
 from sqlalchemy import create_engine, asc, desc
 from sqlalchemy.orm import sessionmaker
 from database_setup import *
+import Flask-Dance
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.client import FlowExchangeError
 import os, random, string, datetime, json, httplib2, requests
